@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		var rand=Math.floor((Math.random()*10)+1);
+		var input;
+		input=window.prompt("Please input a number to guess the corrent number that is randomly selected from 1 to 10");
+
+		while(input!=rand){
+			alert("Wrong!!!Please try again~")
+			input=window.prompt("Please input a number to guess the corrent number that is randomly selected from 1 to 10");
+
+		}
+		
+			alert("Congrats~~~You're Right~~~")
+			document.writeln("<h1>Press F5 to play it again!!!!")
+
+		
+
+	</script>
+</body>
+</html>
